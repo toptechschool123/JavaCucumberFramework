@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.junit.Before.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -21,8 +22,11 @@ public class Initializer extends BaseClass {
 		
 		BaseClass.getBrowserName();
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
 		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+
+		 driver = new ChromeDriver(options);
 		BaseClass.getURL();
 	/*
 		if (BaseClass.getBrowserName().equalsIgnoreCase("chrome")) {

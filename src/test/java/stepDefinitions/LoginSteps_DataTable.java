@@ -16,8 +16,8 @@ public class LoginSteps_DataTable extends BaseClass {
 	@Given("user test Register funtionality using data table")
 	public void user_test_register_funtionality_using_data_table() {
 		BaseClass.initializeDriver();
-		logger.info(getBrowserName());
-		logger.info("it is the data table");
+	//	logger.info(getBrowserName());
+	//	logger.info("it is the data table");
 	}
 
 	@When("user enters below information")

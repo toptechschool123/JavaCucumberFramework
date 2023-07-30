@@ -22,7 +22,7 @@ public class RegisterAccountSteps_simple extends BaseClass {
 	public void user_clicks_on_my_account() {
 		RegisterObj.clickOnMyAccount();
 		
-	logger.info("user clicked on my account");
+	//logger.info("user clicked on my account");
 	
 	}
 
@@ -30,27 +30,27 @@ public class RegisterAccountSteps_simple extends BaseClass {
 	public void user_enters_his_name(String name) {
 		RegisterObj.enterName(name); 
 		
-		logger.info("user entered userName");
+		//logger.info("user entered userName");
 	}
 
 	@When("User enters cityname  {string}")
 	public void user_enters_cityname(String city) {
 		RegisterObj.enterCity(city);
-		logger.info("user entered city");
+	//	logger.info("user entered city");
 		
 	}
 
 	@When("User enters address {string}")
 	public void user_enters_address(String address) {
 		RegisterObj.enterAddress(address); 
-		logger.info("user entered address");
+	//	logger.info("user entered address");
 	}
 
 	@When("User enters email address {string}")
 	public void user_enters_email_address(String email) {
 		RegisterObj.enterEmail(email); 
 		
-		logger.info("user entered email");
+	//	logger.info("user entered email");
 	}
 
 	@When("User enters password {string}")

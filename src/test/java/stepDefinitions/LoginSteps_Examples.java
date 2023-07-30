@@ -27,7 +27,7 @@ public class LoginSteps_Examples extends BaseClass {
 
 	@When("user enter {string} and {string}")
 	public void user_enter_and(String username, String password) {
-		loginObj.enterUserName(username);
+	//loginObj.enterUserName(username);
 		loginObj.enterPassword(password);
 	}
 

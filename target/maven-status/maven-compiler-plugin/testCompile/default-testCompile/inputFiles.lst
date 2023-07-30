@@ -1,7 +1,10 @@
-C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\RegisterAccountSteps.java
-C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\pageObjects\LoginPageObjects_PF.java
+C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\runner\JDBC_Runner.java
+C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\pageObjects\LoginPageObjects.java
+C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\RegisterAccountSteps_simple.java
+C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\LoginSteps_Examples.java
+C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\LoginSteps_Simple.java
 C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\runner\TestRunner.java
 C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\Initializer.java
 C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\LoginSteps.java
-C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\RegisterAccountStepsUpdated.java
 C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\pageObjects\RegisterAccountPageObjects.java
+C:\Users\T540p\eclipse-workspace\JavaCucumberFramework\src\test\java\stepDefinitions\LoginSteps_DataTable.java
