@@ -1,0 +1,10 @@
+stepDefinitions\LoginSteps_Examples.class
+stepDefinitions\RegisterAccountSteps_simple.class
+pageObjects\RegisterAccountPageObjects.class
+stepDefinitions\LoginSteps.class
+stepDefinitions\LoginSteps_DataTable.class
+stepDefinitions\Initializer.class
+stepDefinitions\LoginSteps_Simple.class
+pageObjects\LoginPageObjects.class
+runner\TestRunner.class
+runner\JDBC_Runner.class
